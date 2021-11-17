@@ -3,7 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/jsilv/Desktop/Educem II - David Delgado/M8-AndroidStudio/Projects/Android_FinalPractica_01/app/src/main/res/layout-land/activity_main.xml" value="0.1715167548500882" />
+        <entry key="..\:/Users/jsilv/Desktop/Educem II - David Delgado/M8-AndroidStudio/Projects/Android_FinalPractica_01/app/src/main/res/layout/activity_hotels.xml" value="0.30972222222222223" />
         <entry key="..\:/Users/jsilv/Desktop/Educem II - David Delgado/M8-AndroidStudio/Projects/Android_FinalPractica_01/app/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/jsilv/Desktop/Educem II - David Delgado/M8-AndroidStudio/Projects/Android_FinalPractica_01/app/src/main/res/layout/activity_movies.xml" value="0.32222222222222224" />
+        <entry key="..\:/Users/jsilv/Desktop/Educem II - David Delgado/M8-AndroidStudio/Projects/Android_FinalPractica_01/app/src/main/res/layout/activity_parking.xml" value="0.32222222222222224" />
+        <entry key="..\:/Users/jsilv/Desktop/Educem II - David Delgado/M8-AndroidStudio/Projects/Android_FinalPractica_01/app/src/main/res/layout/activity_restaurants.xml" value="0.32222222222222224" />
       </map>
     </option>
   </component>
