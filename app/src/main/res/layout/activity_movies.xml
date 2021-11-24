@@ -45,19 +45,19 @@
             android:textSize="18sp"
             android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/venomtxt1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/venomtxt"
-            android:layout_marginStart="3dp"
-            android:layout_marginTop="6dp"
-            android:layout_toEndOf="@id/venom"
-            android:drawablePadding="2dp"
-            android:text="@string/descrPElSot"
-            android:textAlignment="center"
-            android:textColor="@color/black"
-            android:textSize="10sp" />
+            <TextView
+                android:id="@+id/venomtxt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/venomtxt"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="6dp"
+                android:layout_toEndOf="@id/venom"
+                android:drawablePadding="2dp"
+                android:text="Venom es una película de superhéroes estadounidense de 2018 que presenta al personaje del mismo nombre, producida por Columbia Pictures en asociación con Marvel Comics y Tencent Pictures. Distribuida por Sony Pictures, es la primera película del Universo de Personajes de Marvel de Sony Pictures."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
 
     </RelativeLayout>
 
@@ -110,7 +110,7 @@
                 android:layout_marginTop="6dp"
                 android:layout_toEndOf="@id/avatar"
                 android:drawablePadding="2dp"
-                android:text="@string/descrPElSot"
+                android:text="Avatar és una pel·lícula de ciència-ficció estatunidenca filmada, dirigida i produïda per James Cameron, i protagonitzada per Sam Worthington, Zoë Saldaña, Sigourney Weaver, Michelle Rodriguez i Stephen Lang."
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="10sp" />
@@ -165,7 +165,62 @@
                 android:layout_marginTop="6dp"
                 android:layout_toEndOf="@id/kong"
                 android:drawablePadding="2dp"
-                android:text="@string/descrPElSot"
+                android:text="Kong: La Isla Calavera (originalmente en inglés, Kong: Skull Island) es una película estadounidense de acción, fantasía, monstruos y aventuras dirigida por Jordan Vogt-Roberts. Es parte del reinicio de las franquicias de King Kong y Godzilla; esta precuela será la segunda entrega del MonsterVerse."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="0dp"
+        app:cardElevation="0dp"
+        app:cardMaxElevation="8dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/increibles"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/losincreibles" />
+
+            <TextView
+                android:id="@+id/increiblestxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="-7dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/increibles"
+                android:text="Los Increibles"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/increiblestxt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/increiblestxt"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="6dp"
+                android:layout_toEndOf="@id/increibles"
+                android:drawablePadding="2dp"
+                android:text="Els increïbles[1] (títol original en anglès The Incredibles) és una pel·lícula estatunidenca de 2004, la sisena animada dels Pixar Animation Studios, i la primera amb un repartiment totalment compost per personatges humans.[2][3] Va guanyar l'Oscar a la millor pel·lícula d'animació i al millor edició de so."
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="10sp" />
