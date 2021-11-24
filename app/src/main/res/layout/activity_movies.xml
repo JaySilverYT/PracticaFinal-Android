@@ -62,13 +62,14 @@
     </RelativeLayout>
 
     </androidx.cardview.widget.CardView>
+
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="5dp"
+        android:layout_margin="0dp"
         app:cardBackgroundColor="@color/white"
-        app:cardCornerRadius="8dp"
-        app:cardElevation="8dp"
+        app:cardCornerRadius="0dp"
+        app:cardElevation="0dp"
         app:cardMaxElevation="8dp"
         app:cardPreventCornerOverlap="true"
         app:cardUseCompatPadding="true">
