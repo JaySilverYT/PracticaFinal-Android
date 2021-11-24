@@ -10,11 +10,11 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="5dp"
+        android:layout_margin="0dp"
         app:cardBackgroundColor="@color/white"
-        app:cardCornerRadius="8dp"
+        app:cardCornerRadius="0dp"
         app:cardElevation="0dp"
-        app:cardMaxElevation="0dp"
+        app:cardMaxElevation="8dp"
         app:cardPreventCornerOverlap="true"
         app:cardUseCompatPadding="true">
 
@@ -127,11 +127,11 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="5dp"
+        android:layout_margin="0dp"
         app:cardBackgroundColor="@color/white"
-        app:cardCornerRadius="8dp"
-        app:cardElevation="8dp"
-        app:cardMaxElevation="10dp"
+        app:cardCornerRadius="0dp"
+        app:cardElevation="0dp"
+        app:cardMaxElevation="8dp"
         app:cardPreventCornerOverlap="true"
         app:cardUseCompatPadding="true">
 
@@ -171,7 +171,7 @@
                 android:layout_marginTop="6dp"
                 android:layout_toEndOf="@id/idIVCourseImage"
                 android:drawablePadding="2dp"
-                android:text="@string/descrPElSot"
+                android:text="@string/descrPDavid"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="10sp" />
@@ -187,7 +187,7 @@
                 android:layout_marginEnd="24dp"
                 android:layout_toEndOf="@id/idIVCourseImage"
                 android:drawablePadding="2dp"
-                android:text="@string/p1_Places"
+                android:text="150"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="10sp" />
@@ -219,7 +219,7 @@
                 android:layout_marginEnd="35dp"
                 android:layout_toEndOf="@id/idIVCourseImage"
                 android:drawablePadding="2dp"
-                android:text="150"
+                android:text="5"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="10sp" />
@@ -244,11 +244,11 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="5dp"
+        android:layout_margin="0dp"
         app:cardBackgroundColor="@color/white"
-        app:cardCornerRadius="8dp"
-        app:cardElevation="8dp"
-        app:cardMaxElevation="10dp"
+        app:cardCornerRadius="0dp"
+        app:cardElevation="0dp"
+        app:cardMaxElevation="8dp"
         app:cardPreventCornerOverlap="true"
         app:cardUseCompatPadding="true">
 
@@ -264,7 +264,7 @@
                 android:layout_marginTop="5dp"
                 android:layout_marginEnd="5dp"
                 android:layout_marginBottom="5dp"
-                android:src="@drawable/p_elsot" />
+                android:src="@drawable/p_ronda" />
 
             <TextView
                 android:id="@+id/idTVCourseName"
@@ -273,7 +273,7 @@
                 android:layout_marginStart="-7dp"
                 android:layout_marginTop="10dp"
                 android:layout_toEndOf="@id/idIVCourseImage"
-                android:text="Párquing el Sot"
+                android:text="Párquing La Ronda"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="18sp"
@@ -284,11 +284,11 @@
                 android:layout_width="208dp"
                 android:layout_height="52dp"
                 android:layout_below="@id/idTVCourseName"
-                android:layout_marginStart="-5dp"
-                android:layout_marginTop="6dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="5dp"
                 android:layout_toEndOf="@id/idIVCourseImage"
                 android:drawablePadding="2dp"
-                android:text="@string/descrPElSot"
+                android:text="@string/descrPLaRonda"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="10sp" />
@@ -304,7 +304,7 @@
                 android:layout_marginEnd="24dp"
                 android:layout_toEndOf="@id/idIVCourseImage"
                 android:drawablePadding="2dp"
-                android:text="@string/p1_Places"
+                android:text="400"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="10sp" />
@@ -336,7 +336,7 @@
                 android:layout_marginEnd="35dp"
                 android:layout_toEndOf="@id/idIVCourseImage"
                 android:drawablePadding="2dp"
-                android:text="150"
+                android:text="36"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="10sp" />
@@ -361,11 +361,11 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="5dp"
+        android:layout_margin="0dp"
         app:cardBackgroundColor="@color/white"
-        app:cardCornerRadius="8dp"
-        app:cardElevation="8dp"
-        app:cardMaxElevation="10dp"
+        app:cardCornerRadius="0dp"
+        app:cardElevation="0dp"
+        app:cardMaxElevation="8dp"
         app:cardPreventCornerOverlap="true"
         app:cardUseCompatPadding="true">
 
@@ -381,7 +381,7 @@
                 android:layout_marginTop="5dp"
                 android:layout_marginEnd="5dp"
                 android:layout_marginBottom="5dp"
-                android:src="@drawable/p_elsot" />
+                android:src="@drawable/p_sanbernardo" />
 
             <TextView
                 android:id="@+id/idTVCourseName"
@@ -390,7 +390,7 @@
                 android:layout_marginStart="-7dp"
                 android:layout_marginTop="10dp"
                 android:layout_toEndOf="@id/idIVCourseImage"
-                android:text="Párquing el Sot"
+                android:text="Párquing San Bernardo"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="18sp"
@@ -405,7 +405,7 @@
                 android:layout_marginTop="6dp"
                 android:layout_toEndOf="@id/idIVCourseImage"
                 android:drawablePadding="2dp"
-                android:text="@string/descrPElSot"
+                android:text="@string/descrPSBernardo"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="10sp" />
@@ -421,7 +421,7 @@
                 android:layout_marginEnd="24dp"
                 android:layout_toEndOf="@id/idIVCourseImage"
                 android:drawablePadding="2dp"
-                android:text="@string/p1_Places"
+                android:text="460"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="10sp" />
@@ -453,7 +453,7 @@
                 android:layout_marginEnd="35dp"
                 android:layout_toEndOf="@id/idIVCourseImage"
                 android:drawablePadding="2dp"
-                android:text="150"
+                android:text="79"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="10sp" />
