@@ -5,4 +5,6 @@
     <string name="descrPSBernardo">Para decorar el parking del Hotel Santo Domingo Madrid, fueron convocados a concurso los mejores artistas de pintura mural de Madrid. El resultado es el parking más original de Granollers</string>
     <string name="p1_Places">700</string>
     <string name="descrPLaRonda">Nuestro personal aparca su coche. Seguimos todas las medidas higiénicas recomendadas contra el Covid para su seguridad.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
