@@ -11,10 +11,13 @@ import android.widget.Spinner;
 
 public class Restaurants extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
+    String titulo = "Restaurants";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        this.setTitle(titulo);
         setContentView(R.layout.activity_restaurants);
 
     Spinner spinner = (Spinner) findViewById(R.id.spinner);
@@ -40,15 +43,20 @@ public class Restaurants extends AppCompatActivity implements AdapterView.OnItem
             FragmentManager fm = getSupportFragmentManager();
             R_Italians fragment1 = new R_Italians();
             fm.beginTransaction().replace(R.id.contenidorFragment, fragment1).commit();// o .replace si vol substituir o afegir
-            //Hola
         }
         else if (position == 1) //Restaurants Chinos
         {
             //TODO: Inflar fragments dels chinos
+            FragmentManager fm = getSupportFragmentManager();
+            R_Chinos fragment2 = new R_Chinos();
+            fm.beginTransaction().replace(R.id.contenidorFragment, fragment2).commit();// o .replace si vol substituir o afegir
         }
         else if (position == 2) //Restaurantes Japoneses
         {
             //TODO: Inflar fragments dels japoneses
+            FragmentManager fm = getSupportFragmentManager();
+            R_Japoneses fragment3 = new R_Japoneses();
+            fm.beginTransaction().replace(R.id.contenidorFragment, fragment3).commit();// o .replace si vol substituir o afegir
         }
     }
 
