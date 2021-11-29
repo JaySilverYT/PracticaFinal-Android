@@ -40,6 +40,7 @@ public class Restaurants extends AppCompatActivity implements AdapterView.OnItem
             FragmentManager fm = getSupportFragmentManager();
             R_Italians fragment1 = new R_Italians();
             fm.beginTransaction().replace(R.id.contenidorFragment, fragment1).commit();// o .replace si vol substituir o afegir
+            //Hola
         }
         else if (position == 1) //Restaurants Chinos
         {
