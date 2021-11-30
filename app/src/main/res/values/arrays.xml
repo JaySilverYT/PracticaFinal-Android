@@ -5,4 +5,9 @@
         <item>Restaurantes Chinos</item>
         <item>Restaurantes Japoneses</item>
     </string-array>
+    <string-array name="spinner_hotels">
+        <item>Hotels 3 Estrellas</item>
+        <item>Hotels 4 Estrellas</item>
+        <item>Hotels 5 Estrellas</item>
+    </string-array>
 </resources>

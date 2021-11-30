@@ -10,10 +10,10 @@ import android.view.ViewGroup;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link hotelesfrag#newInstance} factory method to
+ * Use the {@link hotels5stars#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class hotelesfrag extends Fragment {
+public class hotels5stars extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -24,7 +24,7 @@ public class hotelesfrag extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public hotelesfrag() {
+    public hotels5stars() {
         // Required empty public constructor
     }
 
@@ -34,11 +34,11 @@ public class hotelesfrag extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment hotelesfrag.
+     * @return A new instance of fragment hotels5stars.
      */
     // TODO: Rename and change types and number of parameters
-    public static hotelesfrag newInstance(String param1, String param2) {
-        hotelesfrag fragment = new hotelesfrag();
+    public static hotels5stars newInstance(String param1, String param2) {
+        hotels5stars fragment = new hotels5stars();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -59,6 +59,6 @@ public class hotelesfrag extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_hotelesfrag, container, false);
+        return inflater.inflate(R.layout.fragment_hotels5stars, container, false);
     }
 }

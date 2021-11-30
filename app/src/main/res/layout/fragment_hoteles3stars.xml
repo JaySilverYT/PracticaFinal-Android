@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".R_Italians">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="160dp"
+            android:textAlignment="center"
+            android:text="★★★"
+            android:layout_marginTop="20dp"
+            android:textSize="30dp" />
+
+        <!-- TODO: Update blank fragment layout -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="0dp"
+            app:cardMaxElevation="8dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/idHostalin"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/hostalin" />
+
+                <TextView
+                    android:id="@+id/idHostalinName"
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_toEndOf="@id/idHostalin"
+                    android:text="Hostalin Barcelona"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/Hostalin_telf"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_below="@id/idHostalinName"
+                    android:layout_marginStart="31dp"
+                    android:layout_marginTop="13dp"
+                    android:layout_toEndOf="@id/idHostalin"
+                    android:drawablePadding="2dp"
+                    android:src="@drawable/tlf" />
+
+                <ImageView
+                    android:id="@+id/Hostalin_ubi"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_below="@id/idHostalinName"
+                    android:layout_marginStart="85dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_toEndOf="@id/idHostalin"
+                    android:drawablePadding="2dp"
+                    android:src="@drawable/ubi" />
+
+                <ImageView
+                    android:id="@+id/Hostalin_link"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_below="@id/idHostalinName"
+                    android:layout_marginStart="147dp"
+                    android:layout_marginTop="13dp"
+                    android:layout_toEndOf="@id/idHostalin"
+                    android:drawablePadding="2dp"
+                    android:src="@drawable/web" />
+
+                <RatingBar
+                    android:id="@+id/ratingHostalin"
+                    android:layout_width="235dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160sp"
+                    android:layout_marginTop="100sp" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- TODO: Update blank fragment layout -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="0dp"
+            app:cardMaxElevation="8dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/idCondal"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/condal" />
+
+                <TextView
+                    android:id="@+id/CondalName"
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_toEndOf="@id/idCondal"
+                    android:text="Hotel Condal"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/Condal_phone"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_below="@id/CondalName"
+                    android:layout_marginStart="27dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_toEndOf="@id/idCondal"
+                    android:drawablePadding="2dp"
+                    android:src="@drawable/tlf" />
+
+                <ImageView
+                    android:id="@+id/Condal_ubi"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_below="@id/CondalName"
+                    android:layout_marginStart="87dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_toEndOf="@id/idCondal"
+                    android:drawablePadding="2dp"
+                    android:src="@drawable/ubi" />
+
+                <ImageView
+                    android:id="@+id/Condal_link"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_below="@id/CondalName"
+                    android:layout_marginStart="144dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_toEndOf="@id/idCondal"
+                    android:drawablePadding="2dp"
+                    android:src="@drawable/web" />
+
+                <RatingBar
+                    android:id="@+id/ratingCondal"
+                    android:layout_width="235dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginLeft="160sp"
+                    android:layout_marginTop="100sp"
+                    android:layout_marginEnd="0dp" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- TODO: Update blank fragment layout -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="0dp"
+            app:cardMaxElevation="8dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/idmay"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/mayramblas" />
+
+                <TextView
+                    android:id="@+id/idtxtMay"
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_toEndOf="@id/idmay"
+                    android:text="Hotel May Ramblas"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/may_tlf"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_below="@id/idtxtMay"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_toEndOf="@id/idmay"
+                    android:drawablePadding="2dp"
+                    android:src="@drawable/tlf" />
+
+                <ImageView
+                    android:id="@+id/may_ubi"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_below="@id/idtxtMay"
+                    android:layout_marginStart="85dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_toEndOf="@id/idmay"
+                    android:drawablePadding="2dp"
+                    android:src="@drawable/ubi" />
+
+                <ImageView
+                    android:id="@+id/may_Link"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_below="@id/idtxtMay"
+                    android:layout_marginStart="141dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_toEndOf="@id/idmay"
+                    android:drawablePadding="2dp"
+                    android:src="@drawable/web" />
+
+                <RatingBar
+                    android:id="@+id/ratingMay"
+                    android:layout_width="235dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="160sp"
+                    android:layout_marginTop="100sp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</FrameLayout>
