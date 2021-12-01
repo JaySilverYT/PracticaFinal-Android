@@ -63,9 +63,8 @@ public class Hotels4stars extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.fragment_hoteles3stars, container, false);
-        //1 - Hotel 3 Estrelles
-        tlf1 = v.findViewById(R.id.Hostalin_telf);
+        View v = inflater.inflate(R.layout.fragment_hotels4stars, container, false);
+        tlf1 = v.findViewById(R.id.iris_telf);
         tlf1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -73,26 +72,24 @@ public class Hotels4stars extends Fragment {
                 startActivity(intent4);
             }
         });
-        web1 = v.findViewById(R.id.Hostalin_ubi);
+        web1 = v.findViewById(R.id.iris_link);
         web1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent4 = new Intent (Intent.ACTION_VIEW, Uri.parse("https://www.hostalin.com/"));
+                Intent intent4 = new Intent (Intent.ACTION_VIEW, Uri.parse("https://www.hoteliris.com/"));
                 startActivity(intent4);
             }
         });
 
-        ubi1 = v.findViewById(R.id.Hostalin_ubi);
+        ubi1 = v.findViewById(R.id.iris_ubi);
         ubi1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent4 = new Intent (Intent.ACTION_VIEW, Uri.parse("https://www.google.com/maps/dir/41.6514048,2.2151168/hotel+hostalin+ubicacion/@41.5221292,2.0867598,11z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x12a49861d9a3a9d1:0x78ad5e8d855c9332!2m2!1d2.1732204!2d41.3935051"));
+                Intent intent4 = new Intent (Intent.ACTION_VIEW, Uri.parse("https://www.google.com/maps/dir//hotel+iris/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x12a4c7c300cc5e29:0xcad679937542c049?sa=X&ved=2ahUKEwjlv5LUhMP0AhUIQBoKHQU_AskQ9Rd6BAhUEAQ"));
                 startActivity(intent4);
             }
         });
-
-        //Restaurant Chino 2
-        tlf2 = v.findViewById(R.id.Condal_phone);
+        tlf2 = v.findViewById(R.id.zero_phone);
         tlf2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -100,24 +97,23 @@ public class Hotels4stars extends Fragment {
                 startActivity(intent4);
             }
         });
-        web2 = v.findViewById(R.id.Condal_link);
+        web2 = v.findViewById(R.id.zero_link);
         web2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent4 = new Intent (Intent.ACTION_VIEW, Uri.parse("https://www.bypillow.com/alojamientos/girona/condal-by-pillow/"));
+                Intent intent4 = new Intent (Intent.ACTION_VIEW, Uri.parse("https://www.hoteldiagonalzero.com/es/?utm_source=google&utm_medium=organic&utm_campaign=local-gmb"));
                 startActivity(intent4);
             }
         });
-        ubi2 = v.findViewById(R.id.Condal_ubi);
+        ubi2 = v.findViewById(R.id.zero_ubi);
         ubi2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent4 = new Intent (Intent.ACTION_VIEW, Uri.parse("https://www.google.com/maps/place/SAUB%C3%8D+-+Aplicacions+Industrials/@41.941867,2.7769888,17z/data=!3m1!4b1!4m5!3m4!1s0x12bae09fb2e7956d:0x66c6ebd23ddedf7f!8m2!3d41.941867!4d2.7791775")); //No fico el geo pq no surt la xinxeta
+                Intent intent4 = new Intent (Intent.ACTION_VIEW, Uri.parse("https://www.google.com/maps/dir/41.6514048,2.2151168/diagonal+zero+hotel/@41.5296857,2.0802349,11z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x12a4a35724e646ef:0x913021efa7d6c103!2m2!1d2.2196731!2d41.4121667")); //No fico el geo pq no surt la xinxeta
                 startActivity(intent4);
             }
         });
-        //Restaurant Chino 3
-        tlf3 = v.findViewById(R.id.may_tlf);
+        tlf3 = v.findViewById(R.id.madison_tlf);
         tlf3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -125,19 +121,19 @@ public class Hotels4stars extends Fragment {
                 startActivity(intent4);
             }
         });
-        web3 = v.findViewById(R.id.may_Link);
+        web3 = v.findViewById(R.id.madison_Link);
         web3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent4 = new Intent (Intent.ACTION_VIEW, Uri.parse("http://mayramblas.com/"));
+                Intent intent4 = new Intent (Intent.ACTION_VIEW, Uri.parse("https://www.marriott.com/hotels/travel/bcndl-ac-hotel-diagonal-l%C2%B4illa/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2&y_source=1_NDIyOTIwMS03MTUtbG9jYXRpb24uZ29vZ2xlX3dlYnNpdGVfb3ZlcnJpZGU%3D"));
                 startActivity(intent4);
             }
         });
-        ubi3 = v.findViewById(R.id.may_ubi);
+        ubi3 = v.findViewById(R.id.madison_ubi);
         ubi3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent4 = new Intent (Intent.ACTION_VIEW, Uri.parse("https://www.google.com/maps/dir//hotel+may+ramblas/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x12a4a2f7ebd5f453:0x8ad779628de1fd05?sa=X&ved=2ahUKEwj5l6Tl6MD0AhUF5OAKHX8dC5cQ9Rd6BAg1EAQ"));
+                Intent intent4 = new Intent (Intent.ACTION_VIEW, Uri.parse("https://www.marriott.com/hotels/travel/bcndl-ac-hotel-diagonal-l%C2%B4illa/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2&y_source=1_NDIyOTIwMS03MTUtbG9jYXRpb24uZ29vZ2xlX3dlYnNpdGVfb3ZlcnJpZGU%3D"));
                 startActivity(intent4);
             }
         });

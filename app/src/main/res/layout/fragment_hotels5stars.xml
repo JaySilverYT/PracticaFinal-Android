@@ -142,7 +142,7 @@
                     android:textStyle="bold" />
 
                 <ImageView
-                    android:id="@+id/R2_phone"
+                    android:id="@+id/arts_tlf"
                     android:layout_width="45dp"
                     android:layout_height="45dp"
                     android:layout_below="@id/idtxtarts"
@@ -248,7 +248,7 @@
                     android:src="@drawable/ubi" />
 
                 <ImageView
-                    android:id="@+id/R3_Link"
+                    android:id="@+id/mandarin_link"
                     android:layout_width="45dp"
                     android:layout_height="45dp"
                     android:layout_below="@id/idtxtMandarin"

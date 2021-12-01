@@ -63,7 +63,6 @@ public class hoteles3stars extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_hoteles3stars, container, false);
-        //1 - Hotel 3 Estrelles
         tlf1 = v.findViewById(R.id.Hostalin_telf);
         tlf1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -89,8 +88,6 @@ public class hoteles3stars extends Fragment {
                 startActivity(intent4);
             }
         });
-
-        //Restaurant Chino 2
         tlf2 = v.findViewById(R.id.Condal_phone);
         tlf2.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -115,7 +112,6 @@ public class hoteles3stars extends Fragment {
                 startActivity(intent4);
             }
         });
-        //Restaurant Chino 3
         tlf3 = v.findViewById(R.id.may_tlf);
         tlf3.setOnClickListener(new View.OnClickListener() {
             @Override

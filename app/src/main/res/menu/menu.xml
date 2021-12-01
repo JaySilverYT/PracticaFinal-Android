@@ -12,13 +12,25 @@
 
     <item
         android:id="@+id/menuFuente"
-        android:title="Cambiar Fuente"
+        android:title="Idioma"
         android:icon="@android:drawable/ic_menu_search"
         app:showAsAction="never">
         <menu>
             <group android:checkableBehavior="single">
-                <item android:id="@+id/search_by_name" android:title="Arial" android:checked="true"/>
-                <item android:id="@+id/search_by_birth_date" android:title="Calibri"/>
+                <item android:id="@+id/catala" android:title="Catala" android:checked="true"/>
+                <item android:id="@+id/castella" android:title="Castella"/>
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/clase"
+        android:title="clase"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="never">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/aula1" android:title="Aula1" android:checked="true"/>
+                <item android:id="@+id/aula2" android:title="Aula2"/>
             </group>
         </menu>
     </item>
