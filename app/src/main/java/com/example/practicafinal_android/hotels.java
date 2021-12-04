@@ -2,7 +2,11 @@ package com.example.practicafinal_android;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentManager;
+import androidx.preference.PreferenceManager;
 
+import android.content.SharedPreferences;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -55,6 +59,16 @@ public class hotels extends AppCompatActivity implements AdapterView.OnItemSelec
     public void onNothingSelected(AdapterView<?> parent) {
         // Another interface callback
     }
+    @Override
+    protected void onResume() {
+        super.onResume();
 
+        SharedPreferences Preferences = PreferenceManager.getDefaultSharedPreferences(this);
+        if(Preferences.contains("colorBackground"))
+        {
+            String colorBackground = Preferences.getString("colorBackground","");
+            getWindow().setBackgroundDrawable(new ColorDrawable(Color.parseColor(colorBackground)));
+        }
+    }
 
 }

@@ -2,8 +2,12 @@ package com.example.practicafinal_android;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.preference.PreferenceManager;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -78,6 +82,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         else if (v.getId() == logoPelis.getId())
         {
             startActivity(new Intent(this, movies.class));
+        }
+    }
+    @Override
+    protected void onResume() {
+        super.onResume();
+
+        SharedPreferences Preferences = PreferenceManager.getDefaultSharedPreferences(this);
+        if(Preferences.contains("colorBackground"))
+        {
+            String colorBackground = Preferences.getString("colorBackground","");
+            getWindow().setBackgroundDrawable(new ColorDrawable(Color.parseColor(colorBackground)));
         }
     }
 }
